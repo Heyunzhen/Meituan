@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration:none;
+    box-sizing:border-box;  
+}
+html,body{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+#root{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.box{
+    width:100%;
+    height:100%;
+}
+.info{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+.Leftlist{
+    width:120px;
+    height:100%;
+    border-right:1px solid #f3f3f3;
+    flex-shrink:0; 
+}
+.uls{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+.ls{
+    text-align:center;
+    padding:15px;
+}
+.active{
+    background-color:#f3f3f3;
+}
+.rightbox{
+    flex:1;
+
+}
+.imgs{
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    width:80px;
+}
+.title{
+    padding-bottom:5px;
+}
+.hide{
+    display:none;
+}
+.seting_box{
+    height:100%;
+}
+.show{
+    display:block;
+    font-size:18px;
+    margin:20px;
+}
+.Right{
+    display:flex;
+    height:100px;
+    align-items:center;
+    justify-content:space-between; 
+    margin-right:15px;
+}
+.buttons{
+    display:flex;  
+    align-items:center; 
+    justify-content:space-between; 
+    margin-top:10px;
+}
+.boxse{
+    display:flex;  
+    align-items:center; 
+    margin-right:20px;
+}
+.buttons p{
+   text-align:center;
+   margin-right:5px;
+}
+.jian{
+    width:20px;
+    height:20px;
+    background-color:orange;
+    border-radius:50%;
+    display:flex;
+    align-items:center; 
+    justify-content:center; 
+    color:white;
+    font-size:12px;
+    line-height:20px;
+}
+.jia{
+    width:20px;
+    height:20px;
+    background-color:orange;
+    border-radius:50%;
+    display:flex;
+    align-items:center; 
+    justify-content:center; 
+    color:white;
+    font-size:12px;
+    line-height:20px;
+}
+.number{
+    width:20px;
+    height:20px;
+    background-color:orange;
+    border-radius:50%;
+    display:flex;
+    align-items:center; 
+    justify-content:center; 
+    color:white;
+    font-size:12px;
+    line-height:20px;
+}
+.dl{
+    display:flex;
+    margin-bottom:10px;
+    padding-left:10px;
+    align-items:center;
+}
+.dd{
+    flex:1;
+    display:flex;
+    flex-direction:column; 
+    overflow: hidden;
+}
+.title{
+    width:100%;
+    font-size:15px;
+    margin-top:15px;
+}
+.price{
+    padding:10px;
+    font-size:14px;
+    color:red;
+}
+.titles{
+    font-size:13px;
+    text-overflow:ellipsis;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+    padding-left:6px;
+    color:#666;
+}
+.hides{
+    display: none;
+}
+.shows{
+    display:block;
+}
+.bottoms{
+    position:fixed;
+    bottom:0;
+    z-index:9;
+    width:100%;
+    height:45px;
+    background-color:orange;
+    color:white;
+    display:flex;
+    align-items:center;
+    padding-left:20px;
+    justify-content:space-between; 
+}
+.addPrice{
+    display:flex;
+    margin:50px;
+}
+.car{
+    position: relative;
+}
+.numbers{
+    position:absolute;
+    right:-15px;
+    top:-25px;
+    width:30px;
+    height:30px;
+    text-align:center;
+    display:flex;
+    align-items:center; 
+    justify-content:center; 
+    line-height:30px;
+    border-radius:50%;
+    background-color: red;
+}
+.showser{
+    display:block;
+}
+.hidese{
+    display:none;
+}
+.fixed{
+    width:100%;
+    height:200px;
+    background-color:white;
+    position:absolute;
+    bottom:-200px;
+    transition: .2s;
+    overflow:scroll;
+}
+.mark{
+    position:absolute;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(63, 60, 60, 0.6);
+    transition:.5s;
+}
+.icon{
+    width:40px;
+    height:40px;
+    margin:0 auto;
+}
+.center{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+}
+.nulls{
+    text-align:center;
+    display:flex;
+    justify-content:center; 
+    flex-direction:column; 
+}
+.kong{
+    margin-top:10px;
+    font-weight:normal;
+    color:#666;
+}
+.lisex{
+    width:100%;
+    height:45px;
+    display:flex;
+    align-items:center; 
+    padding-left:10px;
+    padding-right:10px;
+    justify-content:space-between; 
+}
+.rightcarliser{
+    display:flex;
+}
+.Prices{
+    margin-right:25px;
+    color:red;
+}
+.a{
+    margin-right:10px;
+}
